@@ -23,11 +23,6 @@ export default function Contact() {
         </div>
         <div className="projectCard card" style={{ width: "18rem"}}>
         <p className='card-body proj'>
-            ltmccarthy9@gmail.com
-        </p>
-        </div>
-        <div className="projectCard card" style={{ width: "18rem"}}>
-        <p className='card-body proj'>
             LinkedIn
         </p>
         </div>

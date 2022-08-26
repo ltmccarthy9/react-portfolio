@@ -1,0 +1,46 @@
+h1 {
+    margin: 10px;
+}
+
+.about {
+    text-align: center;
+    font-size: 140%;
+}
+
+.projectCard {
+    margin: 5%;
+}
+
+.projectCard:hover {
+    background-color: rgb(49, 195, 147);
+    color: white;
+}
+.proj {
+    font-size: 130%;
+    text-align: center;
+    padding-top: 9%;
+}
+
+.footerContainer {
+    position:absolute;
+    bottom: 2%;
+    width: 100%;
+    border-style:groove;
+}
+
+.footerEl {
+    display: inline;
+    margin: 14%;
+}
+
+.contactCard {
+    margin: 5%;
+}
+
+label {
+    padding: 0%;
+}
+
+form {
+    padding: 4%;
+}

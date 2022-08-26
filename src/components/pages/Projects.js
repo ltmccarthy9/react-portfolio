@@ -2,14 +2,21 @@ import React from 'react';
 export default function Projects() {
     return (
         <div>
-        <div className="projectCard">
-            Project 1
+            <h1>My Projects</h1>
+        <div className="projectCard card" style={{ width: "18rem"}}>
+            <p className='card-body proj'>
+                Appointment Manager 
+            </p>
         </div>
-        <div className="projectCard">
-            Project 2
+        <div className="projectCard card" style={{ width: "18rem"}}>
+            <p className='card-body proj'>
+                E-commerce backend
+            </p>
         </div>
-        <div className="projectCard">
-            Project 3
+        <div className="projectCard card" style={{ width: "18rem"}}>
+            <p className='card-body proj'>
+                Readme Generator 
+            </p>
         </div>
         </div>
     )

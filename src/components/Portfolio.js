@@ -4,6 +4,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
+import '../components/style.css';
+import Footer from './pages/Footer';
 
 export default function Portfolio() {
     const [currentSection, setCurrentSection] = useState('About');
@@ -27,8 +29,13 @@ export default function Portfolio() {
 
     return (
         <div>
+        <div>
             <NavTabs currentSection={currentSection} handleSectionChange={handleSectionChange} />
             {renderSection()}
+        </div>
+        <div className='footerContainer'>
+            <Footer />
+        </div>
         </div>
     )
 }

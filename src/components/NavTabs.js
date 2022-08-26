@@ -1,7 +1,10 @@
 import React from 'react';
+import '../components/style.css';
 
 function NavTabs({ currentSection, handleSectionChange }) {
 return (
+    <header className='header'>
+        <h1>Liam McCarthy</h1>
     <ul className="nav nav-tabs">
         <li className="nav-item">
             <a
@@ -40,6 +43,7 @@ return (
             </a>
         </li>
     </ul>
+    </header>
     );
 }
 

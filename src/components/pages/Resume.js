@@ -7,7 +7,8 @@ export default function Resume() {
         <a href="/resume/Liam_McCarthy_resume.pdf" download>Download Here</a>
         </p>
         <h2>Proficiencies</h2>
-        <ul>
+        <div>
+        <ul className='card profies' style={{ width: "18rem"}} >
             <li>JavaScript</li>
             <li>HTML and CSS</li>
             <li>Nodejs/Express</li>
@@ -18,6 +19,7 @@ export default function Resume() {
             <li>Git workflow</li>
             <li>REST APIs</li>
         </ul>
+        </div>
       </div>
     );
   }

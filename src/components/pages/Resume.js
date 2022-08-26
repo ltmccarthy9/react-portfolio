@@ -6,6 +6,18 @@ export default function Resume() {
         <p className='resumeTag'>
         <a href="/resume/Liam_McCarthy_resume.pdf" download>Download Here</a>
         </p>
+        <h2>Proficiencies</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML and CSS</li>
+            <li>Nodejs/Express</li>
+            <li>React</li>
+            <li>mySQl/noSQL-MongoDB</li>
+            <li>ORMs/ORDs/GraphQL</li>
+            <li>Test Driven Developmen</li>
+            <li>Git workflow</li>
+            <li>REST APIs</li>
+        </ul>
       </div>
     );
   }

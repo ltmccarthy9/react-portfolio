@@ -15,10 +15,10 @@ export default function Portfolio() {
         if (currentSection === 'Projects') {
             return <Projects />
         }
-        if (currentSection === 'Contact') {
-            return <Contact />
+        if (currentSection === 'Resume') {
+            return <Resume />
         }
-        return <Resume />;
+        return <Contact />;
     };
 
     const handleSectionChange = (section) => setCurrentSection(section);

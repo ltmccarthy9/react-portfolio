@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Projects from './pages/Projects';
 
 export default function Portfolio() {
     const [currentSection, setCurrentSection] = useState('About');
@@ -13,12 +13,14 @@ export default function Portfolio() {
             return <About />;
         }
         if (currentSection === 'Projects') {
-            return <Projects />
+            return <Projects />;
         }
         if (currentSection === 'Resume') {
-            return <Resume />
+            return <Resume />;
         }
-        return <Contact />;
+        else {
+            return <Contact />;
+        }
     };
 
     const handleSectionChange = (section) => setCurrentSection(section);

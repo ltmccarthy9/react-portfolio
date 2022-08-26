@@ -1,13 +1,13 @@
 import React from 'react';
 
-function NavTabs({ currentSection, handSectionChange }) {
-    return (
+function NavTabs({ currentSection, handleSectionChange }) {
+return (
     <ul className="nav nav-tabs">
         <li className="nav-item">
             <a
             href="#about"
-            onClick={() => handlePageChange('About')}
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            onClick={() => handleSectionChange('About')}
+            className={currentSection === 'About' ? 'nav-link active' : 'nav-link'}
             >
                 About
             </a>
@@ -15,8 +15,8 @@ function NavTabs({ currentSection, handSectionChange }) {
         <li className="nav-item">
             <a
             href="#projects"
-            onClick={() => handlePageChange('Projects')}
-            className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+            onClick={() => handleSectionChange('Projects')}
+            className={currentSection === 'Projects' ? 'nav-link active' : 'nav-link'}
             >
                 Projects
             </a>
@@ -24,8 +24,8 @@ function NavTabs({ currentSection, handSectionChange }) {
         <li className="nav-item">
             <a
             href="#resume"
-            onClick={() => handlePageChange('Resume')}
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            onClick={() => handleSectionChange('Resume')}
+            className={currentSection === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
                 Resume
             </a>
@@ -33,8 +33,8 @@ function NavTabs({ currentSection, handSectionChange }) {
         <li className="nav-item">
             <a
             href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            onClick={() => handleSectionChange('Contact')}
+            className={currentSection === 'Contact' ? 'nav-link active' : 'nav-link'}
             >
                 Contact
             </a>
@@ -42,3 +42,5 @@ function NavTabs({ currentSection, handSectionChange }) {
     </ul>
     );
 }
+
+export default NavTabs;

@@ -1,4 +1,4 @@
-# IN PROGRESS !
+# In progress
 
 ## React Portfolio
 This is a portfolio built with react.  This is not my official portfolio,

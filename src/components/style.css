@@ -1,6 +1,8 @@
 h1 {
     margin: 10px;
+    font-weight: lighter;
 }
+
 
 .about {
     text-align: center;
@@ -9,16 +11,22 @@ h1 {
 
 .projectCard {
     margin: 2%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px, 5px, black;
+    border-radius: 15px;
 }
 
 .projectCard:hover {
-    background-color: rgb(49, 195, 147);
+    background-color: rgb(189, 233, 218);
     color: white;
 }
 .proj {
     font-size: 130%;
     text-align: center;
     padding-top: 9%;
+    font-weight: lighter;
 }
 
 .footerContainer {
@@ -67,4 +75,16 @@ h2.linked{
 
 li {
     font-size: 140%;
+}
+
+.nav-item{
+    font-weight: lighter;
+}
+
+p.proj{
+    cursor: pointer;
+}
+
+div.projectCard{
+    cursor: pointer;
 }

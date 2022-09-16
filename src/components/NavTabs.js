@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/style.css';
 
-function NavTabs({ currentSection, handleSectionChange }) {
+function NavTabs({ currentSection, handleSectionChange,}) {
 return (
     <header className='header'>
         <h1>Liam McCarthy</h1>

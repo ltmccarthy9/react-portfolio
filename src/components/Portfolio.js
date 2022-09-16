@@ -27,14 +27,13 @@ export default function Portfolio() {
 
     const handleSectionChange = (section) => setCurrentSection(section);
 
+    
+
     return (
         <div>
         <div>
-            <NavTabs currentSection={currentSection} handleSectionChange={handleSectionChange} />
+            <NavTabs currentSection={currentSection} handleSectionChange={handleSectionChange}/>
             {renderSection()}
-        </div>
-        <div className='footerContainer'>
-            <Footer />
         </div>
         </div>
     )

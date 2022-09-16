@@ -1,8 +1,5 @@
-# In progress
-
-## React Portfolio
-This is a portfolio built with react.  This is not my official portfolio,
-although it does contain all of my real information.
+# React Portfolio
+This is a portfolio built with react.
 
 ## Technologies Used
 
@@ -14,6 +11,7 @@ although it does contain all of my real information.
 * Github Pages
 * HTML
 * CSS
+* emailjs
 * Nodejs and npm packages
 
 ## Deployed Link 

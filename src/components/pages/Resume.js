@@ -1,24 +1,15 @@
 import React from 'react';
+import resume from './pictures/resume.png';
+
 export default function Resume() {
     return (
-      <div>
-        <h1>Resume</h1>
-        <p className='resumeTag'>
+      <div style={{alignItems: "center", justifyContent: "center"}}>
+        <h1 style={{textAlign: "center"}}>Resume</h1>
+        <p style={{textAlign: "center"}} className='resumeTag'>
         <a href="/resume/Liam_McCarthy_resume.pdf" download>Download Here</a>
         </p>
-        <h2>Proficiencies</h2>
-        <div>
-        <ul className='card profies' style={{ width: "18rem"}} >
-            <li>JavaScript</li>
-            <li>HTML and CSS</li>
-            <li>Nodejs/Express</li>
-            <li>React</li>
-            <li>mySQl/noSQL-MongoDB</li>
-            <li>ORMs/ORDs/GraphQL</li>
-            <li>Test Driven Developmen</li>
-            <li>Git workflow</li>
-            <li>REST APIs</li>
-        </ul>
+        <div style={{textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center"}}>
+          <img style={{borderStyle: "solid", height: "900px", width: "700px"}}src={resume}/>
         </div>
       </div>
     );

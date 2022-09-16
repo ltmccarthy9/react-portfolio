@@ -8,7 +8,7 @@ h1 {
 }
 
 .projectCard {
-    margin: 5%;
+    margin: 2%;
 }
 
 .projectCard:hover {
@@ -55,4 +55,16 @@ form {
 
 h2 {
     margin: 2%;
+}
+
+.linked:hover{
+    color: rgb(167, 222, 222);
+}
+
+h2.linked{
+    cursor: pointer;
+}
+
+li {
+    font-size: 140%;
 }

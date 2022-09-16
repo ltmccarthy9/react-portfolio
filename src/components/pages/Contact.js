@@ -2,8 +2,8 @@ import React from 'react';
 export default function Contact() {
     return (
       <div>
-        <h1 >Contact Me</h1>
-        <div className='card contactCard'>
+        <h1 style={{textAlign: "center"}}>Contact Me</h1>
+        <div className='card contactCard' style={{ marginLeft: "35%", marginRight: "35%"}}>
         <form>
         <div class="mb-3">
                 <label for="examplename" className="form-label">Name</label>
@@ -21,15 +21,15 @@ export default function Contact() {
             <button type="submit" className="btn btn-primary">Submit</button>
         </form>
         </div>
-        <div className="projectCard card" style={{ width: "18rem"}}>
-        <p className='card-body proj'>
-            LinkedIn
-        </p>
+        <div>
+            <div style={{marginLeft: "35%", marginRight: "35%", width: "30%", display: "flex", justifyContent: "center", alignItems: "center"}}>
+        <div style={{width: "150px", marginRight: "10px", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "2px"}}>
+            <h2 className="linked" style={{padding: "2px", textAlign: "center", fontWeight: "lighter"}}>LinkedIn</h2>
         </div>
-        <div className="projectCard card" style={{ width: "18rem"}}>
-        <p className='card-body proj'>
-            Github
-        </p>
+        <div style={{width: "150px", display: "flex", alignItems: "center", justifyContent: "center"}}>
+            <h2 className="linked" style={{padding: "2px", textAlign: "center", fontWeight: "lighter"}}>Github</h2>
+        </div>
+            </div>
         </div>
       </div>
     );

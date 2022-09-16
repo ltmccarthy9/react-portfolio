@@ -1,4 +1,6 @@
-# React Portfolio
+# IN PROGRESS !
+
+## React Portfolio
 This is a portfolio built with react.  This is not my official portfolio,
 although it does contain all of my real information.
 
@@ -15,6 +17,6 @@ although it does contain all of my real information.
 * Nodejs and npm packages
 
 ## Deployed Link 
-https://ltmccarthy9.github.io/react-portfolio/#contact  < - - - - - - 
+https://ltmccarthy9.github.io/react-portfolio/ < - - - - - - 
 
 

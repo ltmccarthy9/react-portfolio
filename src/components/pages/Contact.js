@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+
 export default function Contact() {
     const linkedin = () => {
         window.open("https://www.linkedin.com/in/liam-mccarthy-b06b9a218/");

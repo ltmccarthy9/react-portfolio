@@ -31,6 +31,7 @@ export default function Contact() {
     return (
       <div>
         <h1 style={{textAlign: "center"}}>Contact Me</h1>
+        <h3 style={{textAlign: "center", fontWeight: "lighter", marginTop: "1em"}}>ltmccarthy9@gmail.com</h3>
         <div className='card contactCard' style={{ marginLeft: "35%", marginRight: "35%"}}>
         <form id="myForm" onSubmit={sendEmail}>
         

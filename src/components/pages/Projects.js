@@ -4,12 +4,12 @@ export default function Projects() {
         window.open('https://github.com/laurasierra17/appointment-manager');
     }
 
-    const elderWarfare = () => {
-        window.open('https://github.com/lilyannekot/elder-warfare-kart-simulator');
-    }
-
     const ecommerce = () => {
         window.open('https://github.com/ltmccarthy9/e-commerce-backend');
+    }
+
+    const friends = () => {
+        window.open('https://github.com/ltmccarthy9/friends-first');
     }
     return (
         <div>
@@ -20,14 +20,14 @@ export default function Projects() {
                 Appointment Manager 
             </p>
         </div>
-        <div onClick={elderWarfare} className="projectCard card" style={{ width: "18rem"}}>
-            <p className='card-body proj'>
-                Elder-Warfare(Game)
-            </p>
-        </div>
         <div onClick={ecommerce} className="projectCard card" style={{ width: "18rem"}}>
             <p className='card-body proj'>
                 E-commerce backend 
+            </p>
+        </div>
+        <div onClick={friends} className="projectCard card" style={{ width: "18rem"}}>
+            <p className='card-body proj'>
+                Friends First 
             </p>
         </div>
         </div>

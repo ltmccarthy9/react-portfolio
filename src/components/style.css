@@ -19,8 +19,8 @@ h1 {
 }
 
 .projectCard:hover {
-    background-color: rgb(189, 233, 218);
-    color: white;
+    box-shadow: 4px 4px 1px rgb(63, 60, 60);
+    font-weight: bold;
 }
 .proj {
     font-size: 130%;
